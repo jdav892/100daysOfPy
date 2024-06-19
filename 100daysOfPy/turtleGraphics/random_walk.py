@@ -6,7 +6,7 @@ import random
 tim = Turtle()
 #tim.shape("turtle")
 tim.color("firebrick")
-
+tim.hideturtle()
 turtle.colormode(255)
 def random_color():
     r = random.randint(0,255)
